@@ -6,7 +6,7 @@
    */
   function MainController(SessionService, SettingsService) {
     var vm;
-    
+
     vm = this;
     vm.isAuthenticated = SessionService.isAuthenticated();
     vm.login = SessionService.login;
