@@ -1,0 +1,5 @@
+{
+  "ApiSubscriptionKey": "",
+  "AuthClientId": "",
+  "AuthRedirectUri": "http://localhost:8000"
+}

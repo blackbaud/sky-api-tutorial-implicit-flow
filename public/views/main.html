@@ -1,0 +1,14 @@
+<div ng-if="mainCtrl.isReady">
+  <h1>Blackbaud SKY API Implicit Flow Tutorial</h1>
+  <div ng-if="mainCtrl.isAuthenticated">
+    <constituent-detail constituent-id="280"></constituent-detail>
+    <p>
+      <a ng-click="mainCtrl.logout()" class="btn btn-primary">Log out</a>
+    </p>
+  </div>
+  <div ng-if="!mainCtrl.isAuthenticated">
+    <p>
+      <a ng-click="mainCtrl.login()" class="btn btn-primary">Log in</a>
+    </p>
+  </div>
+</div>
