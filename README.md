@@ -20,8 +20,8 @@ This tutorial demonstrates the interaction of a client application (AngularJS) w
 - **A Blackbaud Developer Application ID**
     - [Register your application](https://developerapp.sky.blackbaud.com/applications) in order to obtain the **Application ID** (client ID) and **Application Secret** (client secret).
 - **A Blackbaud Developer Application Redirect URI**
-    - Specify one or more URIs that should be used when redirecting the user's browser back to your application after providing consent during the authorization process. The URIs must be absolute and use https (note that we do support <code>http://localhost:port</code> or <code>http://127.0.0.1:port</code> for local development).
-    <br><br>For this tutorial, use <code>http://localhost:8000/</code>.
+    - Specify one or more URIs that should be used when redirecting the user's browser back to your application after providing consent during the authorization process. The URIs must be absolute and use https (note that we do support `http://localhost:port` or `http://127.0.0.1:port` for local development).
+    <br><br>For this tutorial, use `http://localhost:8000/`.
 
 
 ### Step 1 — Clone the files
