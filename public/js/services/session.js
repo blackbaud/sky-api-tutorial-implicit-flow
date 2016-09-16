@@ -16,7 +16,7 @@
     this.login = function () {
       delete $sessionStorage.token;
       $window.location.href = 'https://oauth2.sky.blackbaud.com/authorization' +
-        '?client_id=' + SettingsService.get('AuthClientId') +
+        '?client_id=' + SettingsService.get('SkyApiAppId') +
         '&response_type=token' +
         '&redirect_uri=' + SettingsService.get('AuthRedirectUri');
     };
