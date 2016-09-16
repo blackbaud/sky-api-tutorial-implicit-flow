@@ -1,5 +1,5 @@
 {
-  "name": "sky-api-tutorial-implicit-flow",
+  "name": "sky-api-tutorial-implicit-flow-angular",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blackbaud/sky-api-tutorial-implicit-flow.git"
+    "url": "git+https://github.com/blackbaud/sky-api-tutorial-implicit-flow-angular.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/blackbaud/sky-api-tutorial-implicit-flow/issues"
+    "url": "https://github.com/blackbaud/sky-api-tutorial-implicit-flow-angular/issues"
   },
-  "homepage": "https://github.com/blackbaud/sky-api-tutorial-implicit-flow#readme",
+  "homepage": "https://github.com/blackbaud/sky-api-tutorial-implicit-flow-angular#readme",
   "devDependencies": {
     "http-server": "^0.9.0"
   }

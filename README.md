@@ -27,7 +27,7 @@ This tutorial demonstrates the interaction of a client application (AngularJS) w
 ### Step 1 — Clone the files
 Open Terminal/Command Prompt and type:
 ```
-$  git clone https://github.com/blackbaud/sky-api-tutorial-implicit-flow.git
+$  git clone https://github.com/blackbaud/sky-api-tutorial-implicit-flow-angular.git
 ```
 
 ### Step 2 — Configure the app
