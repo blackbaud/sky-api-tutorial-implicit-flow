@@ -19,7 +19,7 @@
       hashPairs[obj[0]] = obj[1];
     });
 
-    SessionService.$storage.token = hashPairs;
+    SessionService.setToken(hashPairs);
     $location.path('/');
   }
 

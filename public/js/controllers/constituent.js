@@ -17,7 +17,7 @@
         url: 'https://api.sky.blackbaud.com/constituent/v1/constituents/' + vm.constituentId,
         headers: {
           'bb-api-subscription-key': SettingsService.get('SkyApiSubscriptionKey'),
-          'Authorization': 'Bearer ' + SessionService.$storage.token.access_token
+          'Authorization': 'Bearer ' + SessionService.getAccessToken()
         }
       }).then(function (res) {
         vm.constituent = res.data;

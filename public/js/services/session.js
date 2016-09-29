@@ -13,6 +13,16 @@
       }
     };
 
+    // Returns the access token from the token response.
+    this.getAccessToken = function () {
+      return $sessionStorage.token.access_token;
+    };
+
+    // Stores the token response with the front-end session.
+    this.setToken = function (obj) {
+      $sessionStorage.token = obj;
+    };
+
     this.login = function () {
       delete $sessionStorage.token;
       $window.location.href = 'https://oauth2.sky.blackbaud.com/authorization' +
